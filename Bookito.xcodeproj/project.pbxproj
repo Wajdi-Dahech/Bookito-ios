@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02147566225498EB61A6977F /* Pods_BookitoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36208FB36E075787A7082E00 /* Pods_BookitoUITests.framework */; };
+		0E369009228E377E0010D6BE /* BookitoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E369008228E377E0010D6BE /* BookitoViewController.swift */; };
+		0E3A5C12228E556E003D5058 /* HomeTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3A5C0F228E556E003D5058 /* HomeTVC.swift */; };
+		0E3A5C13228E556E003D5058 /* StoryboardFolioReaderContrainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3A5C10228E556E003D5058 /* StoryboardFolioReaderContrainer.swift */; };
+		0E3A5C14228E556E003D5058 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3A5C11228E556E003D5058 /* TableViewCell.swift */; };
+		0E412117228B70A6009895B4 /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E412116228B70A6009895B4 /* Books.swift */; };
+		0E412119228B9F47009895B4 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E412118228B9F47009895B4 /* DetailsViewController.swift */; };
+		0E451DC8228CFC6B008209B8 /* GoodReadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E451DC7228CFC6B008209B8 /* GoodReadsViewController.swift */; };
+		0E55CACB228C19BA00E85E11 /* SimilarBooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E55CACA228C19BA00E85E11 /* SimilarBooks.swift */; };
+		0E55CAD1228C40AA00E85E11 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0E55CACF228C40AA00E85E11 /* Model.xcdatamodeld */; };
+		0E55CAD3228C4A0A00E85E11 /* SavedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E55CAD2228C4A0A00E85E11 /* SavedViewController.swift */; };
+		0E579C62228AEBF10091FCD5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E579C61228AEBF10091FCD5 /* HomeViewController.swift */; };
+		0E579C64228AFAAD0091FCD5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E579C63228AFAAD0091FCD5 /* SearchViewController.swift */; };
 		0E8BDC55225EEE5F00E603DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8BDC54225EEE5F00E603DF /* AppDelegate.swift */; };
 		0E8BDC57225EEE5F00E603DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8BDC56225EEE5F00E603DF /* ViewController.swift */; };
 		0E8BDC5A225EEE5F00E603DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E8BDC58225EEE5F00E603DF /* Main.storyboard */; };
@@ -14,6 +27,9 @@
 		0E8BDC5F225EEE6000E603DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E8BDC5D225EEE6000E603DF /* LaunchScreen.storyboard */; };
 		0E8BDC6A225EEE6000E603DF /* BookitoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8BDC69225EEE6000E603DF /* BookitoTests.swift */; };
 		0E8BDC75225EEE6000E603DF /* BookitoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8BDC74225EEE6000E603DF /* BookitoUITests.swift */; };
+		0E8BDC83225EF03000E603DF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E8BDC82225EF02F00E603DF /* GoogleService-Info.plist */; };
+		59E02195FE8425D29C7BA74E /* Pods_Bookito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95E9B4A6BCE6D7D2F5A720E5 /* Pods_Bookito.framework */; };
+		AD9A7AB6C481A1F28E721D86 /* Pods_BookitoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0016945BDC6F95632B4249A /* Pods_BookitoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0749FD8899284C9572E1E39E /* Pods-BookitoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookitoUITests.release.xcconfig"; path = "Target Support Files/Pods-BookitoUITests/Pods-BookitoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0E369008228E377E0010D6BE /* BookitoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookitoViewController.swift; sourceTree = "<group>"; };
+		0E3A5C0F228E556E003D5058 /* HomeTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTVC.swift; sourceTree = "<group>"; };
+		0E3A5C10228E556E003D5058 /* StoryboardFolioReaderContrainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardFolioReaderContrainer.swift; sourceTree = "<group>"; };
+		0E3A5C11228E556E003D5058 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		0E412116228B70A6009895B4 /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
+		0E412118228B9F47009895B4 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		0E451DC7228CFC6B008209B8 /* GoodReadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodReadsViewController.swift; sourceTree = "<group>"; };
+		0E55CACA228C19BA00E85E11 /* SimilarBooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimilarBooks.swift; sourceTree = "<group>"; };
+		0E55CAD0228C40AA00E85E11 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		0E55CAD2228C4A0A00E85E11 /* SavedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedViewController.swift; sourceTree = "<group>"; };
+		0E579C61228AEBF10091FCD5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0E579C63228AFAAD0091FCD5 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		0E8BDC51225EEE5F00E603DF /* Bookito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookito.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E8BDC54225EEE5F00E603DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E8BDC56225EEE5F00E603DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +76,15 @@
 		0E8BDC70225EEE6000E603DF /* BookitoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookitoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E8BDC74225EEE6000E603DF /* BookitoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookitoUITests.swift; sourceTree = "<group>"; };
 		0E8BDC76225EEE6000E603DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E8BDC82225EF02F00E603DF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		36208FB36E075787A7082E00 /* Pods_BookitoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookitoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A39ED630DED5F507B81DC6F /* Pods-BookitoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookitoTests.release.xcconfig"; path = "Target Support Files/Pods-BookitoTests/Pods-BookitoTests.release.xcconfig"; sourceTree = "<group>"; };
+		835BC15122C0EB6251187B3A /* Pods-BookitoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookitoTests.debug.xcconfig"; path = "Target Support Files/Pods-BookitoTests/Pods-BookitoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		95E9B4A6BCE6D7D2F5A720E5 /* Pods_Bookito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bookito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8D9CCAEAB89D53619D22273 /* Pods-BookitoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookitoUITests.debug.xcconfig"; path = "Target Support Files/Pods-BookitoUITests/Pods-BookitoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0016945BDC6F95632B4249A /* Pods_BookitoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookitoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED9A1061C549049E125A059E /* Pods-Bookito.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bookito.debug.xcconfig"; path = "Target Support Files/Pods-Bookito/Pods-Bookito.debug.xcconfig"; sourceTree = "<group>"; };
+		F3AC7BAA734CBB48FD3E63E3 /* Pods-Bookito.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bookito.release.xcconfig"; path = "Target Support Files/Pods-Bookito/Pods-Bookito.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59E02195FE8425D29C7BA74E /* Pods_Bookito.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD9A7AB6C481A1F28E721D86 /* Pods_BookitoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02147566225498EB61A6977F /* Pods_BookitoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +122,8 @@
 				0E8BDC68225EEE6000E603DF /* BookitoTests */,
 				0E8BDC73225EEE6000E603DF /* BookitoUITests */,
 				0E8BDC52225EEE5F00E603DF /* Products */,
+				E3A8F0C338E8AD605FF108D3 /* Pods */,
+				451A0B538091F693505E9EFA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +140,25 @@
 		0E8BDC53225EEE5F00E603DF /* Bookito */ = {
 			isa = PBXGroup;
 			children = (
+				0E55CACF228C40AA00E85E11 /* Model.xcdatamodeld */,
 				0E8BDC54225EEE5F00E603DF /* AppDelegate.swift */,
 				0E8BDC56225EEE5F00E603DF /* ViewController.swift */,
 				0E8BDC58225EEE5F00E603DF /* Main.storyboard */,
+				0E8BDC82225EF02F00E603DF /* GoogleService-Info.plist */,
 				0E8BDC5B225EEE6000E603DF /* Assets.xcassets */,
 				0E8BDC5D225EEE6000E603DF /* LaunchScreen.storyboard */,
 				0E8BDC60225EEE6000E603DF /* Info.plist */,
+				0E579C61228AEBF10091FCD5 /* HomeViewController.swift */,
+				0E3A5C0F228E556E003D5058 /* HomeTVC.swift */,
+				0E3A5C10228E556E003D5058 /* StoryboardFolioReaderContrainer.swift */,
+				0E3A5C11228E556E003D5058 /* TableViewCell.swift */,
+				0E579C63228AFAAD0091FCD5 /* SearchViewController.swift */,
+				0E412116228B70A6009895B4 /* Books.swift */,
+				0E412118228B9F47009895B4 /* DetailsViewController.swift */,
+				0E55CACA228C19BA00E85E11 /* SimilarBooks.swift */,
+				0E55CAD2228C4A0A00E85E11 /* SavedViewController.swift */,
+				0E451DC7228CFC6B008209B8 /* GoodReadsViewController.swift */,
+				0E369008228E377E0010D6BE /* BookitoViewController.swift */,
 			);
 			path = Bookito;
 			sourceTree = "<group>";
@@ -125,6 +181,29 @@
 			path = BookitoUITests;
 			sourceTree = "<group>";
 		};
+		451A0B538091F693505E9EFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95E9B4A6BCE6D7D2F5A720E5 /* Pods_Bookito.framework */,
+				C0016945BDC6F95632B4249A /* Pods_BookitoTests.framework */,
+				36208FB36E075787A7082E00 /* Pods_BookitoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3A8F0C338E8AD605FF108D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED9A1061C549049E125A059E /* Pods-Bookito.debug.xcconfig */,
+				F3AC7BAA734CBB48FD3E63E3 /* Pods-Bookito.release.xcconfig */,
+				835BC15122C0EB6251187B3A /* Pods-BookitoTests.debug.xcconfig */,
+				3A39ED630DED5F507B81DC6F /* Pods-BookitoTests.release.xcconfig */,
+				A8D9CCAEAB89D53619D22273 /* Pods-BookitoUITests.debug.xcconfig */,
+				0749FD8899284C9572E1E39E /* Pods-BookitoUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E8BDC79225EEE6000E603DF /* Build configuration list for PBXNativeTarget "Bookito" */;
 			buildPhases = (
+				B3AF1D5416113F834B027B96 /* [CP] Check Pods Manifest.lock */,
 				0E8BDC4D225EEE5F00E603DF /* Sources */,
 				0E8BDC4E225EEE5F00E603DF /* Frameworks */,
 				0E8BDC4F225EEE5F00E603DF /* Resources */,
+				42F3B44B54380DA221E2C93F /* [CP] Embed Pods Frameworks */,
+				4D2F7D7FB23AE19C12BF5D3E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +231,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E8BDC7C225EEE6000E603DF /* Build configuration list for PBXNativeTarget "BookitoTests" */;
 			buildPhases = (
+				B94841073E6255527698285A /* [CP] Check Pods Manifest.lock */,
 				0E8BDC61225EEE6000E603DF /* Sources */,
 				0E8BDC62225EEE6000E603DF /* Frameworks */,
 				0E8BDC63225EEE6000E603DF /* Resources */,
@@ -167,6 +250,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E8BDC7F225EEE6000E603DF /* Build configuration list for PBXNativeTarget "BookitoUITests" */;
 			buildPhases = (
+				23DD107345B14FF306354236 /* [CP] Check Pods Manifest.lock */,
 				0E8BDC6C225EEE6000E603DF /* Sources */,
 				0E8BDC6D225EEE6000E603DF /* Frameworks */,
 				0E8BDC6E225EEE6000E603DF /* Resources */,
@@ -230,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E8BDC5F225EEE6000E603DF /* LaunchScreen.storyboard in Resources */,
+				0E8BDC83225EF03000E603DF /* GoogleService-Info.plist in Resources */,
 				0E8BDC5C225EEE6000E603DF /* Assets.xcassets in Resources */,
 				0E8BDC5A225EEE5F00E603DF /* Main.storyboard in Resources */,
 			);
@@ -251,13 +336,172 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23DD107345B14FF306354236 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BookitoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42F3B44B54380DA221E2C93F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bookito/Pods-Bookito-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AEXML/AEXML.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FolioReaderKit/FolioReaderKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FontBlaster/FontBlaster.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MenuItemKit/MenuItemKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyXMLParser/SwiftyXMLParser.framework",
+				"${BUILT_PRODUCTS_DIR}/ZFDragableModalTransition/ZFDragableModalTransition.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AEXML.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FolioReaderKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontBlaster.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MenuItemKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSZipArchive.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyXMLParser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZFDragableModalTransition.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bookito/Pods-Bookito-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D2F7D7FB23AE19C12BF5D3E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bookito/Pods-Bookito-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bookito/Pods-Bookito-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3AF1D5416113F834B027B96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bookito-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B94841073E6255527698285A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BookitoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0E8BDC4D225EEE5F00E603DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E412117228B70A6009895B4 /* Books.swift in Sources */,
 				0E8BDC57225EEE5F00E603DF /* ViewController.swift in Sources */,
 				0E8BDC55225EEE5F00E603DF /* AppDelegate.swift in Sources */,
+				0E55CAD3228C4A0A00E85E11 /* SavedViewController.swift in Sources */,
+				0E55CAD1228C40AA00E85E11 /* Model.xcdatamodeld in Sources */,
+				0E3A5C14228E556E003D5058 /* TableViewCell.swift in Sources */,
+				0E451DC8228CFC6B008209B8 /* GoodReadsViewController.swift in Sources */,
+				0E3A5C12228E556E003D5058 /* HomeTVC.swift in Sources */,
+				0E579C64228AFAAD0091FCD5 /* SearchViewController.swift in Sources */,
+				0E579C62228AEBF10091FCD5 /* HomeViewController.swift in Sources */,
+				0E412119228B9F47009895B4 /* DetailsViewController.swift in Sources */,
+				0E3A5C13228E556E003D5058 /* StoryboardFolioReaderContrainer.swift in Sources */,
+				0E55CACB228C19BA00E85E11 /* SimilarBooks.swift in Sources */,
+				0E369009228E377E0010D6BE /* BookitoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,9 +674,11 @@
 		};
 		0E8BDC7A225EEE6000E603DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED9A1061C549049E125A059E /* Pods-Bookito.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Bookito/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -440,6 +686,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Esprit.Bookito;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,9 +694,11 @@
 		};
 		0E8BDC7B225EEE6000E603DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3AC7BAA734CBB48FD3E63E3 /* Pods-Bookito.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Bookito/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,6 +706,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Esprit.Bookito;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,6 +714,7 @@
 		};
 		0E8BDC7D225EEE6000E603DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 835BC15122C0EB6251187B3A /* Pods-BookitoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +735,7 @@
 		};
 		0E8BDC7E225EEE6000E603DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A39ED630DED5F507B81DC6F /* Pods-BookitoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +756,7 @@
 		};
 		0E8BDC80225EEE6000E603DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8D9CCAEAB89D53619D22273 /* Pods-BookitoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +776,7 @@
 		};
 		0E8BDC81225EEE6000E603DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0749FD8899284C9572E1E39E /* Pods-BookitoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -580,6 +834,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0E55CACF228C40AA00E85E11 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0E55CAD0228C40AA00E85E11 /* Model.xcdatamodel */,
+			);
+			currentVersion = 0E55CAD0228C40AA00E85E11 /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = ../Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0E8BDC49225EEE5F00E603DF /* Project object */;
 }
